@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Byteway.cpp" />
+    <ClCompile Include="listener.cpp" />
+    <ClCompile Include="path.cpp" />
+    <ClCompile Include="repository.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="listener.hpp" />
+    <ClInclude Include="path.hpp" />
+    <ClInclude Include="repository.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
