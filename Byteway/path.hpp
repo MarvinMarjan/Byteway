@@ -5,5 +5,5 @@
 class Path
 {
 public:
-	static bool exist(std::string path);
+	static bool exist(std::string path); // return true if the path exist
 };
